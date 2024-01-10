@@ -11,6 +11,8 @@ public class Application {
 		ConfigurableApplicationContext run = SpringApplication.run(Application.class, args);
 		//Working for p-1 Sprint
 		run.close();
+		
+		System.out.println("Code resolve..");
 	}
 
 }
